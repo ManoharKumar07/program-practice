@@ -19,6 +19,8 @@ class Enumeration{
     public static void main(String[] args) {
         System.out.println("Hii started main");
         Laptop lap =Laptop.Macbook;
+
+        System.out.println("geyclass==="+lap.getClass()+"getName=="+lap.getClass().getSuperclass());
         System.out.println(lap+":"+lap.getPrice());
     }
 }
