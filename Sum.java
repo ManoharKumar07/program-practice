@@ -1,0 +1,19 @@
+import java.io.*;
+
+
+class Sum{
+    public static void main(String[] args) throws Exception  {
+        int val1,val2,result;
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String num1 = br.readLine();
+
+        String [] numbers =num1.split(" ");
+
+        val1=Integer.parseInt(numbers[0]);
+        val2 = Integer.parseInt(numbers[1]);
+        result = val1+val2;
+        System.out.println(result);
+
+        
+    }
+}
