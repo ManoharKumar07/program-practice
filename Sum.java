@@ -8,7 +8,7 @@ class Sum{
         String num1 = br.readLine();
 // Readlinine reads entire line so  we have to split the input by space
         String [] numbers =num1.split(" ");
-
+// Converting into interger
         val1=Integer.parseInt(numbers[0]);
         val2 = Integer.parseInt(numbers[1]);
         result = val1+val2;
