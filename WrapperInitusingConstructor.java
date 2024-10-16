@@ -2,6 +2,8 @@
 class WrapperInitusingConstructor {
 
     public static void main(String[] args) {
+
+        // Using Constructor Depricated
         // Byte byteObj = new Byte((byte) 10);
         // Short shortObj = new Short((short) 100);
         // Integer intObj = new Integer(1000);
